@@ -40,8 +40,8 @@ Dicom is the standard used in medical imaging ,to enable the transfer of images 
 ### Step 3 : Model Building
 
 * Two models with MobileNet as backbone were explored
-* [SegNet](https://arxiv.org/pdf/1511.00561.pdf) was explored by movifng the encoder to Level 3, to optimize the resource utilization
-* [U-Net](https://arxiv.org/pdf/1505.04597.pdf) ,which is a common architecture for biomedical imaging architecture was explored 
+* [SegNet](https://arxiv.org/pdf/1511.00561.pdf) was explored by moving the encoder to Level 3, to optimize the resource utilization
+* [U-Net](https://arxiv.org/pdf/1505.04597.pdf) ,which is a common architecture for biomedical imaging architecture, was explored 
 
 #### Results 
 * [Pneumonia Prediction Based on SegNet](https://github.com/meashu31/AIML-Capstone-CV9/blob/master/Segnet_Model_Pneumonia.ipynb)
