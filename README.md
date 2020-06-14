@@ -50,6 +50,10 @@ Dicom is the standard used in medical imaging ,to enable the transfer of images 
 #### Summary of Models
 <to be filled>
 
+## Challenges Faced
+* One of the challenges was to load and process large number of high resolution dicom images and further processing over them. Loading dicom images directly from the drive to code and iterating over each one of them resulted in exhaustive consumption of available RAM on google colab. To overcome this problem, images were firstly converted to .png format and instead of loading these images in bulk, a custom image generator was developed for a much better memory and time efficient iteration.
+* Another challenge with available memory resources was unaviability of enough memory to load few models while processing over GPU. To overcome the problem instead of loading the full base model as encoder, we took up only some layers as encoder.
+
 ## Further Improvements
 * Image Augmentation to further enhance the images
 * Hyperparameter tuning will be attempted to increase the performance of the models
