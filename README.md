@@ -5,7 +5,9 @@ Capstone Project from Group 9 - Computer Vision  , as part of the Post Graduate 
 
 ## Problem Statement
 Chest X-rays are used as the quickest and most accessible method for the diagnosis of Pneumonia in patients who present with clinical symptoms like fever, cough and shortness of breath. All common forms of pneumonia like viral, bacterial and fungal pneumonia can be diagnosed from Chest X-Rays, which is an economical choice as well. 
+
 In this Capstone project, we aim to predict the presence of pneumonia from Chest X-rays by detecting the presence of infection based on the lung opacity of the patient. Pneumonia detection models have a major role to play especially in places where the presence of an expert radiologist is not available, like in scenarios we experience currently, where the healthcare system is short-staffed due to the presence of a Pandemic like Covid-19.
+
 Essentially, pneumonia detection is a binary classification problem, where the input is a chest X-Ray image 'X' and the output is a binary label 'y' which belongs to {0,1} indicating the absence or presence of pneumonia respectively. 
 
 ## Data
