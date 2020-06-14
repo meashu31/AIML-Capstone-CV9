@@ -45,15 +45,13 @@ Dicom is the standard used in medical imaging ,to enable the transfer of images 
 
 #### Results 
 * [Pneumonia Prediction Based on SegNet](https://github.com/meashu31/AIML-Capstone-CV9/blob/master/Segnet_Model_Pneumonia.ipynb)
-* [Pneumonia Prediction Based on U-Net](link to be added). Currently this is based on MobileNet backbone
+* [Pneumonia Prediction Based on U-Net](https://github.com/meashu31/AIML-Capstone-CV9/blob/master/Unet_Model_Pneumonia.ipynb). Currently this is based on MobileNet backbone
 
-#### Summary of Models
-<to be filled>
 
 ## Challenges Faced
 * One of the challenges was to load and process large number of high resolution dicom images and further processing over them. Loading dicom images directly from the drive to code and iterating over each one of them resulted in exhaustive consumption of available RAM on google colab. To overcome this problem, images were firstly converted to .png format and instead of loading these images in bulk, a custom image generator was developed for a much better memory and time efficient iteration.
 * Another challenge with available memory resources was unaviability of enough memory to load few models while processing over GPU. To overcome the problem instead of loading the full base model as encoder, we took up only some layers as encoder.
-* Used TPU instead of GPU to cut short on long execution time per epoch while training the model.
+* Used TPU instead of GPU in Google Colab to cut short on long execution time per epoch while training the model.
 
 ## Further Improvements
 * Image Augmentation to further enhance the images
