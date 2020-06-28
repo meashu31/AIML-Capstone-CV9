@@ -12,7 +12,7 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive/',force_remount=True)
 
-!pip install pydicom
+#!pip install pydicom
 
 #Set the project path 
 project_path =  '/content/drive/My Drive/AIML_Delete/Capstone/'
